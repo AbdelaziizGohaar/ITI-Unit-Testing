@@ -1,0 +1,16 @@
+{
+  "name": "osad-45",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava ./tests"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ava": "^6.3.0",
+    "chai": "^5.2.0",
+    "sinon": "^20.0.0"
+  }
+}
