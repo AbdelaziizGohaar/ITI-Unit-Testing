@@ -1,6 +1,8 @@
-const it = require("ava").default;
-const { expect } = require("chai");
-const { getURL } = require("../index");
+import ava from "ava";
+import { expect } from "chai";
+import { getURL } from "../index.js";
+
+const it = ava;
 
 it("getURL: valid input 'fr-fr' returns '/home-fr'", (t) => {
   const result = getURL('fr-fr');

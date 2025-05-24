@@ -1,4 +1,4 @@
-const getURL = (lang) => {
+export const getURL = (lang) => {
   if (typeof lang === 'undefined') {
     throw new Error("Input must be a string not undefined");
   }
@@ -14,7 +14,4 @@ const getURL = (lang) => {
   }
   const prefix = lang.split('-')[0];
   return `/home-${prefix}`;
-};
-module.exports = {
-  getURL
 };
